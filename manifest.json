@@ -4,6 +4,7 @@
   "version": "1.1",
   "description": "A simple bookmark button",
   "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/bookmark-it",
+  "author": "Baptiste Ohanes",
   "icons": {
     "48": "icons/bookmark-it.png",
     "96": "icons/bookmark-it@2x.png"
@@ -20,7 +21,8 @@
   },
 
   "background": {
-    "scripts": ["background.js"]
+    "scripts": ["background.js"],
+    "persistent": false
   }
 
 }
