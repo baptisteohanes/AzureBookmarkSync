@@ -21,7 +21,7 @@
     "default_popup": "popup/configandsync.html"
   },
   "options_ui": {
-  "page": "options/onfigandsync.html",
+  "page": "options/configandsync.html",
   "browser_style": true
   }
 }
