@@ -22,11 +22,9 @@
     <button id="signOutButton" type="button" class="btn btn-primary hidden" onclick="signOut()">Sign out</button>
 
     <script src="//secure.aadcdn.microsoftonline-p.com/lib/0.1.1/js/msal.min.js"></script>
-    <script type="text/javascript" src="msalconfig.js"></script>
-
-    <!-- The 'bluebird' and 'fetch' references below are required if you need to run this application on Internet Explorer -->
-    <script src="//cdnjs.cloudflare.com/ajax/libs/bluebird/3.3.4/bluebird.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/fetch/2.0.3/fetch.min.js"></script>
+    <script type="text/javascript" >
+        var msalconfig = {clientID: "0a121959-1f18-4463-89cb-5b29feedf1b7", redirectUri: location.origin}
+    </script>
     <script type="text/javascript">
 
         var graphAPIMeEndpoint = "https://graph.microsoft.com/v1.0/me";
