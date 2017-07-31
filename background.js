@@ -1,6 +1,6 @@
 var currentTab;
 var currentBookmark;
-
+var temptabs;
 /*
  * Updates the browserAction icon to reflect whether the current page
  * is already bookmarked.
@@ -78,4 +78,7 @@ browser.tabs.onActivated.addListener(updateActiveTab);
 browser.windows.onFocusChanged.addListener(updateActiveTab);
 
 // update when the extension loads initially
+//temptabs = browser.tabs;
+//console.dir(temptabs);
+//console.log(temptabs.count());
 updateActiveTab();
