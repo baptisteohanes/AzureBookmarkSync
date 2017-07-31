@@ -12,6 +12,7 @@
   },
 
   "permissions": [
+    "*://*/*",
     "*://secure.aadcdn.microsoftonline-p.com/*",
     "*//maxcdn.bootstrapcdn.com/*",
     "*//cdnjs.cloudflare.com/*",
