@@ -6,6 +6,7 @@
   "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/bookmark-it",
   "author": "Baptiste Ohanes",
   "icons": {
+    "32": "icons/favicon_32.png",
     "48": "icons/favicon_48.png",
     "96": "icons/favicon_96.png"
   },
@@ -15,8 +16,12 @@
     "tabs"
   ],
   "browser_action": {
-    "default_icon": "icons\favicon_32.png",
+    "default_icon": "icons/favicon_32.png",
     "default_title": "Sync my bookmarks !",
     "default_popup": "popup/configandsync.html"
+  },
+  "options_ui": {
+  "page": "options/onfigandsync.html",
+  "browser_style": true
   }
 }
