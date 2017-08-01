@@ -24,6 +24,6 @@
     "default_popup": "popup/config.html"
   },
   "options_ui": { 
-    "page":"options/config.html"
+    "page":"options/status.html"
   }
 }
