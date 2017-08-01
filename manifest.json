@@ -12,12 +12,18 @@
   },
 
   "permissions": [
-    "*://*/*"
+    "*://secure.aadcdn.microsoftonline-p.com/*",
+    "*://maxcdn.bootstrapcdn.com/bootstrap/*",
+    "*://login.microsoftonline.com/*",
+    "*://graph.microsoft.com/*",
+    "webRequest"
   ],
   "browser_action": {
     "default_icon": "icons/favicon_32.png",
     "default_title": "Sync my bookmarks !",
-    "default_popup": "popup/configandsync.html"
+    "default_popup": "popup/config.html"
   },
-  "options_page": "options/configandsync.html"
+  "options_ui": { 
+    "page":"options/config.html"
+  }
 }
